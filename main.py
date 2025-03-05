@@ -51,7 +51,7 @@ class MediaCaptionAdder(QMainWindow):
         self.caption_label = QLabel("Caption:")
         self.caption_entry = QTextEdit()
         self.caption_entry.setPlaceholderText("Enter your meme caption here...")
-        self.caption_entry.setMaximumHeight(100)  # Limit height while allowing multiple lines
+        self.caption_entry.setMaximumHeight(100)
         input_layout.addWidget(self.caption_label, 1, 0)
         input_layout.addWidget(self.caption_entry, 1, 1, 1, 3)
 
